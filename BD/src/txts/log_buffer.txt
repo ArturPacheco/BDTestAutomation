@@ -1,0 +1,2 @@
+<início T1>
+<T1,artur,null,10>
