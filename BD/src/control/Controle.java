@@ -54,7 +54,7 @@ public class Controle extends HttpServlet {
 		
 		
 		//redireciona para index
-		response.sendRedirect("http://localhost:8080/BD/index.jsp");
+		response.sendRedirect("http://localhost:8081/BD/index.jsp");
 	}
 	
 	private static void erro() throws IOException{
