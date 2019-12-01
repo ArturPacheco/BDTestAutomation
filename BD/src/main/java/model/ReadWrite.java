@@ -12,7 +12,7 @@ import java.util.List;
 
 public class ReadWrite {
 	
-	private static final String FILE_PATH = "C:/Users/Artur/git/BD/BD/src/txts/";
+	private static final String FILE_PATH = "C:/Users/Artur/git/BD/BD/src/main/java/txts/";
 	
 	public static List<String> readFile(String file_name) throws IOException{
 		File file = new File(FILE_PATH+file_name+".txt");
