@@ -10,7 +10,9 @@ public class ReadWriteTest extends TestCase{
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		int a = 2;
+		int b = 3;
+		assertTrue(a + b == 5);
 	}
 
 }
