@@ -420,7 +420,6 @@ public class Controle extends HttpServlet {
 		System.out.println("giuliano," + nota_giuliano);
 		System.out.println("renan," + nota_renan);
 	}
-
 	
 	private static void commit (String transacao) throws IOException{
 		
@@ -509,9 +508,9 @@ public class Controle extends HttpServlet {
 		ReadWrite.copyData("log_buffer", "dados_buffer");
 	}
 	
-	private static void checkpoint() throws IOException{
-				
-		List<String> lista = new ArrayList<>();   
+	public static void checkpoint() throws IOException{
+		
+		List<String> lista = new ArrayList<>();  
 		
 		//limpa dados do log_disco e dados_disco
 		ReadWrite.deleteData("log_disco");

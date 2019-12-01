@@ -1,0 +1,5 @@
+<início T1>
+<T1,artur,null,10>
+<T1,artur,10,3>
+<T1,artur,3,5>
+<checkpoint>

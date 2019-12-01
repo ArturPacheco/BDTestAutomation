@@ -1,0 +1,3 @@
+artur,5
+giuliano,NULL
+renan,NULL
