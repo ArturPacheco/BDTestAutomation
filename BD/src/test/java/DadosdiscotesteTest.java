@@ -46,6 +46,6 @@ public class DadosdiscotesteTest {
     driver.findElement(By.name("adicionar")).click();
     driver.findElement(By.cssSelector(".form-row:nth-child(1) .btn")).click();
     driver.findElement(By.cssSelector(".btn-success")).click();
-    assertThat(driver.findElement(By.cssSelector(".col:nth-child(3) code")).getText(), is("artur,10\\\\ngiuliano,NULL\\\\nrenan,NULL"));
+    assertThat(driver.findElement(By.cssSelector(".col:nth-child(3) code")).getText(), is("artur,10\\ngiuliano,NULL\\nrenan,NULL"));
   }
 }
