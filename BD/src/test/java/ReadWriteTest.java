@@ -14,7 +14,7 @@ public class ReadWriteTest{
 	//Testa se o leitor de arquivo consegue trazer a última linha do arquivo dados_buffer.
 	public void readFileTest() throws IOException {
 		List<String> list = ReadWrite.readFile("dados_buffer");
-		assertEquals("&#60;[fim T1]>", list.get(2));
+		assertEquals("&#60;fim T1>", list.get(2));
 	}
 
 }
